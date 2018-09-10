@@ -1,0 +1,115 @@
+.App {
+  padding: 10px;
+  font-size: 16px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 5px 1px;
+  color: #040404 !important;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+header {
+  text-align: center;
+  padding: 2px 0px;
+}
+.logo {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #fff;
+  border: 20px solid transparent !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+p,
+section,
+button,
+h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #55626e;
+}
+hr {
+  border-color: #9dacb9;
+  border-width: 0.5px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.result {
+  background: #dfe7ed;
+  padding: 5px 12px;
+  border: 20px solid transparent !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.result .resultDisplay {
+  color: #818f9d;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin-top: 8px;
+  letter-spacing: 0.3rem;
+}
+.result .resultDisplay:hover {
+  border: none;
+}
+.result .resultDisplay:focus {
+  box-shadow: none;
+}
+.result .clipboard {
+  display: flex;
+  align-items: center;
+}
+.result .clipboard h3 {
+  margin-left: 5px;
+  font-size: 12px;
+}
+.bankDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: #818f9d;
+  background: #dfe7ed;
+}
+.bankDetails h2 {
+  color: #293d4f;
+  font-size: 14px;
+  font-weight: 900;
+}
+.bankDetails h3 {
+  color: #949098;
+  font-size: 12px;
+}
+
+/* ANTD STYLING */
+.ant-form-item {
+  margin-bottom: 8px !important;
+}
+.ant-form-item-label label {
+  color: #293d4f !important;
+  font-size: 14px !important;
+  font-weight: 900 !important;
+}
+.ant-form-item-label label::after,
+.ant-form-item-label label::before {
+  content: none !important;
+}
+form .ant-input-number-handler-wrap {
+  display: none !important;
+}
+button {
+  color: #fff !important;
+  background: #6558f5 !important;
+  border-color: #6558f5 !important;
+  letter-spacing: 0.1rem;
+}
+select {
+  font-size: 50px;
+}
